@@ -1,4 +1,4 @@
-import Buttom from  'react-bootstrap/Button';
+import Button from  'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
@@ -11,11 +11,11 @@ function MyForm() {
             </Form.Group>
         <Form.Group className="mb-3">
                 <Form.Label>Product Type</Form.Label>
-                <Form.Selecet aria-label='Default' >
+                <Form.Select aria-label='Default'>
                     <option>Default</option>
                     <option value="1">Fruit</option>
                     <option value="2">Vegetable</option>
-                    </Form.Selecet>
+                </Form.Select>
             </Form.Group>
             <Form.Label>Product Cost</Form.Label>
             <InputGroup className="mb-3">
